@@ -1,1 +1,3 @@
-# USBdriver
+USB DEVICE DRIVER
+Language: C
+Project Description: In a Linux system, a valid USB device will always be detected at the hardware and kernel spaces of a USB-enabled Linux system, since it is designed (and detected) as per the USB protocol specifications. At the hardware level, the Hardware-space detection is done by the USB host controller which is typically a native bus device The corresponding host controller driver would pick and translate the low-level physical layer information into higher-level USB protocol-specific information. The USB protocol formatted information about the USB device is then populated into the generic USB core layer (the USB core driver) in kernel-space, thus enabling the detection of a USB device in kernel-space, even without having its specific driver available.
